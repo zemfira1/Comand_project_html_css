@@ -1,0 +1,156 @@
+.no-scroll {
+  overflow: hidden;
+}
+
+.section-products {
+    padding-top: 72px;
+}
+
+.products-container {
+    margin: 0 auto;
+}
+
+.products-title {
+    text-align: center;
+
+}
+
+.products-title-color {
+    color: var(--orange);
+}
+
+.products-list {
+    margin-top: 32px;
+    min-width: 0;
+}
+
+.products-item {
+ 
+    width: 100%;
+    text-align: center;
+    background-color: var(--bg-color-light);
+}
+
+.products-item .swiper-button-prev::after,
+.products-item .swiper-button-next::after {
+    color: var(--orange);
+    font-size: 80px;
+}
+
+.product-img {
+    margin: 0 auto;
+    margin-top: 32px;
+    min-width: 0;
+}
+
+.products-choco-title {
+    margin-top: 8px;
+}
+
+.products-choco-paragraf {
+    margin-top: 2px;
+}
+
+.products-btn {
+    margin-top: 18px;
+    margin-bottom: 32px;
+    padding: 8px 20px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+}
+
+.swiper-pagination-bullets,
+.swiper-pagination-horizontal {
+    position: relative;
+    width: 250px !important;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.swiper-pagination-bullet {
+
+    width: 13px !important;
+    height: 13px !important;
+    transition: 0.15s;
+}
+
+.swiper-pagination-bullet-active {
+    
+    background: var(--orange) !important;
+    width: 28px !important;
+    border-radius: 18px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767) {
+    .products-container {
+        max-width: 334px;
+    }
+
+    .products-item {
+        padding-left: 52px;
+        padding-right: 52px
+    }
+
+  .products-item {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .products-container {
+        max-width: 768px;
+    }
+
+    .section-products {
+        padding-top: 100px;
+    }
+
+    .swiper-pagination-bullets,
+    .swiper-pagination-horizontal {
+        position: relative;
+        width: 230px !important;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+
+    .products-item {
+        max-width: 334px;
+    }
+
+  .products-item {
+    max-width: 334px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+    .products-container {
+        max-width: 1200px;
+    }
+
+    .section-products {
+        padding-top: 128px;
+    }
+
+    .swiper-pagination-bullets,
+    .swiper-pagination-horizontal {
+        position: relative;
+        width: 190px !important;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .products-list {
+
+        margin-top: 32px;
+    }
+
+    .products-item {
+        max-width: 334px;
+    }
+
+    
+
+}
+
